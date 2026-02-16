@@ -1,0 +1,209 @@
+2026-02-10 00:34:31,988 - INFO - Logging to file: chess_game_2026-02-10_00-34-22.log
+2026-02-10 00:34:35,941 - INFO - Move: e4 (White)
+2026-02-10 00:34:35,980 - INFO - AI (easy) best move: Nh6, score: 0.0, depth: 2, nodes: 620, time: 0.024351119995117188s
+2026-02-10 00:34:35,980 - INFO - Nodes per second: 25460.841231299444
+2026-02-10 00:34:35,980 - INFO - Move: Nh6 (Black)
+2026-02-10 00:34:41,362 - INFO - Move: d4 (White)
+2026-02-10 00:34:41,412 - INFO - AI (easy) best move: Ng8, score: 0.0, depth: 2, nodes: 779, time: 0.034171104431152344s
+2026-02-10 00:34:41,413 - INFO - Nodes per second: 22797.038988585304
+2026-02-10 00:34:41,413 - INFO - Move: Ng8 (Black)
+2026-02-10 00:34:56,290 - INFO - Move: Bc4 (White)
+2026-02-10 00:34:56,341 - INFO - AI (easy) best move: Nf6, score: 1.0, depth: 2, nodes: 859, time: 0.03602099418640137s
+2026-02-10 00:34:56,341 - INFO - Nodes per second: 23847.204093114382
+2026-02-10 00:34:56,341 - INFO - Move: Nf6 (Black)
+2026-02-10 00:35:02,841 - INFO - Move: Bg5 (White)
+2026-02-10 00:35:02,894 - INFO - AI (easy) best move: Nxe4, score: 0.0, depth: 2, nodes: 962, time: 0.03708505630493164s
+2026-02-10 00:35:02,895 - INFO - Nodes per second: 25940.367788306998
+2026-02-10 00:35:02,895 - INFO - Move: Nxe4 (Black)
+2026-02-10 00:35:29,968 - INFO - Move: Be3 (White)
+2026-02-10 00:35:30,028 - INFO - AI (easy) best move: f6, score: -1.0, depth: 2, nodes: 1134, time: 0.04471302032470703s
+2026-02-10 00:35:30,028 - INFO - Nodes per second: 25361.74008744801
+2026-02-10 00:35:30,028 - INFO - Move: f6 (Black)
+2026-02-10 00:35:33,749 - INFO - Move: Qf3 (White)
+2026-02-10 00:35:33,822 - INFO - AI (easy) best move: Nd6, score: 0.0, depth: 2, nodes: 1116, time: 0.05774283409118652s
+2026-02-10 00:35:33,822 - INFO - Nodes per second: 19327.07352461487
+2026-02-10 00:35:33,822 - INFO - Move: Nd6 (Black)
+2026-02-10 00:35:45,117 - INFO - Move: Qh5+ (White)
+2026-02-10 00:35:45,118 - WARNING - Check!
+2026-02-10 00:35:45,135 - INFO - AI (easy) best move: g6, score: 0.0, depth: 2, nodes: 108, time: 0.003473997116088867s
+2026-02-10 00:35:45,135 - INFO - Nodes per second: 31088.10870907968
+2026-02-10 00:35:45,135 - INFO - Move: g6 (Black)
+2026-02-10 00:36:05,502 - INFO - Move: Qf3 (White)
+2026-02-10 00:36:05,560 - INFO - AI (easy) best move: Nxc4, score: -3.75, depth: 2, nodes: 1035, time: 0.04138493537902832s
+2026-02-10 00:36:05,560 - INFO - Nodes per second: 25009.100304756856
+2026-02-10 00:36:05,560 - INFO - Move: Nxc4 (Black)
+2026-02-10 00:36:15,455 - INFO - Move: b3 (White)
+2026-02-10 00:36:15,525 - INFO - AI (easy) best move: Nxe3, score: -4.75, depth: 2, nodes: 1032, time: 0.053045034408569336s
+2026-02-10 00:36:15,525 - INFO - Nodes per second: 19455.166944585526
+2026-02-10 00:36:15,525 - INFO - Move: Nxe3 (Black)
+2026-02-10 00:36:18,684 - INFO - Move: Qxe3 (White)
+2026-02-10 00:36:18,734 - INFO - AI (easy) best move: Rg8, score: -3.75, depth: 2, nodes: 757, time: 0.03398704528808594s
+2026-02-10 00:36:18,735 - INFO - Nodes per second: 22273.19243504125
+2026-02-10 00:36:18,735 - INFO - Move: Rg8 (Black)
+2026-02-10 00:36:38,573 - INFO - Move: Nf3 (White)
+2026-02-10 00:36:38,619 - INFO - AI (easy) best move: Rh8, score: -3.75, depth: 2, nodes: 795, time: 0.03083181381225586s
+2026-02-10 00:36:38,619 - INFO - Nodes per second: 25785.05451677261
+2026-02-10 00:36:38,619 - INFO - Move: Rh8 (Black)
+2026-02-10 00:36:42,124 - INFO - Move: O-O (White)
+2026-02-10 00:36:42,170 - INFO - AI (easy) best move: Rg8, score: -3.75, depth: 2, nodes: 717, time: 0.029258012771606445s
+2026-02-10 00:36:42,170 - INFO - Nodes per second: 24506.10728749888
+2026-02-10 00:36:42,170 - INFO - Move: Rg8 (Black)
+2026-02-10 00:36:46,075 - INFO - Move: Nc3 (White)
+2026-02-10 00:36:46,126 - INFO - AI (easy) best move: Rh8, score: -3.75, depth: 2, nodes: 879, time: 0.03523874282836914s
+2026-02-10 00:36:46,126 - INFO - Nodes per second: 24944.136182189686
+2026-02-10 00:36:46,126 - INFO - Move: Rh8 (Black)
+2026-02-10 00:36:51,073 - INFO - Move: Nd5 (White)
+2026-02-10 00:36:51,122 - INFO - AI (easy) best move: Rg8, score: -3.75, depth: 2, nodes: 834, time: 0.03310084342956543s
+2026-02-10 00:36:51,122 - INFO - Nodes per second: 25195.73260345014
+2026-02-10 00:36:51,122 - INFO - Move: Rg8 (Black)
+2026-02-10 00:36:54,208 - INFO - Move: Rae1 (White)
+2026-02-10 00:36:54,256 - INFO - AI (easy) best move: Rh8, score: -3.75, depth: 2, nodes: 778, time: 0.030805110931396484s
+2026-02-10 00:36:54,256 - INFO - Nodes per second: 25255.549370772256
+2026-02-10 00:36:54,256 - INFO - Move: Rh8 (Black)
+2026-02-10 00:37:21,009 - INFO - Move: a4 (White)
+2026-02-10 00:37:21,059 - INFO - AI (easy) best move: Rg8, score: -3.75, depth: 2, nodes: 720, time: 0.03347420692443848s
+2026-02-10 00:37:21,059 - INFO - Nodes per second: 21509.098083346984
+2026-02-10 00:37:21,059 - INFO - Move: Rg8 (Black)
+2026-02-10 00:37:30,348 - INFO - Move: Re2 (White)
+2026-02-10 00:37:30,397 - INFO - AI (easy) best move: Rh8, score: -3.75, depth: 2, nodes: 798, time: 0.032382965087890625s
+2026-02-10 00:37:30,397 - INFO - Nodes per second: 24642.585934739072
+2026-02-10 00:37:30,397 - INFO - Move: Rh8 (Black)
+2026-02-10 00:37:35,155 - INFO - Move: Rfe1 (White)
+2026-02-10 00:37:35,203 - INFO - AI (easy) best move: Rg8, score: -3.75, depth: 2, nodes: 739, time: 0.032540082931518555s
+2026-02-10 00:37:35,204 - INFO - Nodes per second: 22710.452261453807
+2026-02-10 00:37:35,204 - INFO - Move: Rg8 (Black)
+2026-02-10 00:37:56,259 - INFO - Move: Nxe7 (White)
+2026-02-10 00:37:56,303 - INFO - AI (easy) best move: Bxe7, score: -3.25, depth: 2, nodes: 787, time: 0.0289762020111084s
+2026-02-10 00:37:56,303 - INFO - Nodes per second: 27160.219261941005
+2026-02-10 00:37:56,303 - INFO - Move: Bxe7 (Black)
+2026-02-10 00:38:02,107 - INFO - Move: Qxe7+ (White)
+2026-02-10 00:38:02,108 - WARNING - Check!
+2026-02-10 00:38:02,125 - INFO - AI (easy) best move: Qxe7, score: -3.25, depth: 2, nodes: 27, time: 0.001725912094116211s
+2026-02-10 00:38:02,125 - INFO - Nodes per second: 15643.902196435973
+2026-02-10 00:38:02,125 - INFO - Move: Qxe7 (Black)
+2026-02-10 00:38:04,753 - INFO - Move: Rxe7+ (White)
+2026-02-10 00:38:04,753 - WARNING - Check!
+2026-02-10 00:38:04,773 - INFO - AI (easy) best move: Kf8, score: -2.25, depth: 2, nodes: 72, time: 0.004384040832519531s
+2026-02-10 00:38:04,773 - INFO - Nodes per second: 16423.204698716556
+2026-02-10 00:38:04,773 - INFO - Move: Kf8 (Black)
+2026-02-10 00:38:12,460 - INFO - Move: Rxh7 (White)
+2026-02-10 00:38:12,497 - INFO - AI (easy) best move: Nc6, score: -1.25, depth: 2, nodes: 517, time: 0.022120952606201172s
+2026-02-10 00:38:12,497 - INFO - Nodes per second: 23371.507059558968
+2026-02-10 00:38:12,497 - INFO - Move: Nc6 (Black)
+2026-02-10 00:38:25,235 - INFO - Move: Rh4 (White)
+2026-02-10 00:38:25,279 - INFO - AI (easy) best move: Rg7, score: -2.25, depth: 2, nodes: 675, time: 0.02827000617980957s
+2026-02-10 00:38:25,279 - INFO - Nodes per second: 23876.896089328937
+2026-02-10 00:38:25,280 - INFO - Move: Rg7 (Black)
+2026-02-10 00:38:32,249 - INFO - Move: Rhe4 (White)
+2026-02-10 00:38:32,292 - INFO - AI (easy) best move: Kg8, score: -2.25, depth: 2, nodes: 698, time: 0.027856111526489258s
+2026-02-10 00:38:32,292 - INFO - Nodes per second: 25057.33793233308
+2026-02-10 00:38:32,292 - INFO - Move: Kg8 (Black)
+2026-02-10 00:38:37,942 - INFO - Move: Re8+ (White)
+2026-02-10 00:38:37,943 - WARNING - Check!
+2026-02-10 00:38:37,963 - INFO - AI (easy) best move: Kh7, score: 1.0, depth: 2, nodes: 76, time: 0.003986835479736328s
+2026-02-10 00:38:37,963 - INFO - Nodes per second: 19062.73795000598
+2026-02-10 00:38:37,963 - INFO - Move: Kh7 (Black)
+2026-02-10 00:38:57,529 - INFO - Move: Nh4 (White)
+2026-02-10 00:38:57,580 - INFO - AI (easy) best move: Nxd4, score: 0.0, depth: 2, nodes: 740, time: 0.0356290340423584s
+2026-02-10 00:38:57,580 - INFO - Nodes per second: 20769.5779548846
+2026-02-10 00:38:57,580 - INFO - Move: Nxd4 (Black)
+2026-02-10 00:39:24,655 - INFO - Move: Rc1 (White)
+2026-02-10 00:39:24,707 - INFO - AI (easy) best move: Nxb3, score: -1.0, depth: 2, nodes: 669, time: 0.03658580780029297s
+2026-02-10 00:39:24,707 - INFO - Nodes per second: 18285.779110080024
+2026-02-10 00:39:24,707 - INFO - Move: Nxb3 (Black)
+2026-02-10 00:39:27,108 - INFO - Move: cxb3 (White)
+2026-02-10 00:39:27,145 - INFO - AI (easy) best move: Rb8, score: 2.25, depth: 2, nodes: 530, time: 0.02086186408996582s
+2026-02-10 00:39:27,146 - INFO - Nodes per second: 25405.208169049496
+2026-02-10 00:39:27,146 - INFO - Move: Rb8 (Black)
+2026-02-10 00:39:41,736 - INFO - Move: Rxc7 (White)
+2026-02-10 00:39:41,772 - INFO - AI (easy) best move: Ra8, score: 3.25, depth: 2, nodes: 443, time: 0.020423173904418945s
+2026-02-10 00:39:41,772 - INFO - Nodes per second: 21691.045773455833
+2026-02-10 00:39:41,773 - INFO - Move: Ra8 (Black)
+2026-02-10 00:40:02,965 - INFO - Move: b4 (White)
+2026-02-10 00:40:02,997 - INFO - AI (easy) best move: Rb8, score: 3.25, depth: 2, nodes: 443, time: 0.023218154907226562s
+2026-02-10 00:40:02,997 - INFO - Nodes per second: 19079.89682083299
+2026-02-10 00:40:02,997 - INFO - Move: Rb8 (Black)
+2026-02-10 00:40:08,306 - INFO - Move: a5 (White)
+2026-02-10 00:40:08,336 - INFO - AI (easy) best move: Ra8, score: 3.25, depth: 2, nodes: 409, time: 0.013824939727783203s
+2026-02-10 00:40:08,337 - INFO - Nodes per second: 29584.215776221845
+2026-02-10 00:40:08,337 - INFO - Move: Ra8 (Black)
+2026-02-10 00:40:12,783 - INFO - Move: f3 (White)
+2026-02-10 00:40:12,817 - INFO - AI (easy) best move: Rb8, score: 3.25, depth: 2, nodes: 397, time: 0.01753687858581543s
+2026-02-10 00:40:12,817 - INFO - Nodes per second: 22638.00812997077
+2026-02-10 00:40:12,817 - INFO - Move: Rb8 (Black)
+2026-02-10 00:40:35,441 - INFO - Move: Re4 (White)
+2026-02-10 00:40:35,476 - INFO - AI (easy) best move: Ra8, score: 3.25, depth: 2, nodes: 455, time: 0.01887798309326172s
+2026-02-10 00:40:35,476 - INFO - Nodes per second: 24102.151048244505
+2026-02-10 00:40:35,476 - INFO - Move: Ra8 (Black)
+2026-02-10 00:40:41,999 - INFO - Move: Rf4 (White)
+2026-02-10 00:40:42,032 - INFO - AI (easy) best move: Rb8, score: 3.25, depth: 2, nodes: 371, time: 0.017168045043945312s
+2026-02-10 00:40:42,032 - INFO - Nodes per second: 21609.915342739696
+2026-02-10 00:40:42,032 - INFO - Move: Rb8 (Black)
+2026-02-10 00:40:47,278 - INFO - Move: Rxf6 (White)
+2026-02-10 00:40:47,313 - INFO - AI (easy) best move: Ra8, score: 4.25, depth: 2, nodes: 407, time: 0.019752979278564453s
+2026-02-10 00:40:47,314 - INFO - Nodes per second: 20604.48675920338
+2026-02-10 00:40:47,314 - INFO - Move: Ra8 (Black)
+2026-02-10 00:41:18,896 - INFO - Move: g4 (White)
+2026-02-10 00:41:18,931 - INFO - AI (easy) best move: Rb8, score: 4.25, depth: 2, nodes: 419, time: 0.019611835479736328s
+2026-02-10 00:41:18,932 - INFO - Nodes per second: 21364.649955019573
+2026-02-10 00:41:18,932 - INFO - Move: Rb8 (Black)
+2026-02-10 00:41:32,868 - INFO - Move: f4 (White)
+2026-02-10 00:41:32,902 - INFO - AI (easy) best move: Ra8, score: 4.25, depth: 2, nodes: 420, time: 0.019310712814331055s
+2026-02-10 00:41:32,902 - INFO - Nodes per second: 21749.585529970987
+2026-02-10 00:41:32,902 - INFO - Move: Ra8 (Black)
+2026-02-10 00:41:37,270 - INFO - Move: g5 (White)
+2026-02-10 00:41:37,302 - INFO - AI (easy) best move: Rb8, score: 4.25, depth: 2, nodes: 344, time: 0.017403125762939453s
+2026-02-10 00:41:37,302 - INFO - Nodes per second: 19766.564046359974
+2026-02-10 00:41:37,303 - INFO - Move: Rb8 (Black)
+2026-02-10 00:41:44,798 - INFO - Move: b5 (White)
+2026-02-10 00:41:44,828 - INFO - AI (easy) best move: Ra8, score: 4.25, depth: 2, nodes: 312, time: 0.013782024383544922s
+2026-02-10 00:41:44,828 - INFO - Nodes per second: 22638.183717953154
+2026-02-10 00:41:44,828 - INFO - Move: Ra8 (Black)
+2026-02-10 00:42:00,738 - INFO - Move: f5 (White)
+2026-02-10 00:42:00,771 - INFO - AI (easy) best move: gxf5, score: 3.25, depth: 2, nodes: 324, time: 0.017416954040527344s
+2026-02-10 00:42:00,771 - INFO - Nodes per second: 18602.563872310137
+2026-02-10 00:42:00,771 - INFO - Move: gxf5 (Black)
+2026-02-10 00:42:03,080 - INFO - Move: Nxf5 (White)
+2026-02-10 00:42:03,114 - INFO - AI (easy) best move: Rxg5+, score: 0.0, depth: 2, nodes: 401, time: 0.01738595962524414s
+2026-02-10 00:42:03,115 - INFO - Nodes per second: 23064.588244974082
+2026-02-10 00:42:03,115 - INFO - Move: Rxg5+ (Black)
+2026-02-10 00:42:03,115 - WARNING - Check!
+2026-02-10 00:42:13,462 - INFO - Move: Kf2 (White)
+2026-02-10 00:42:13,499 - INFO - AI (easy) best move: Rxf5+, score: 2.0, depth: 2, nodes: 447, time: 0.021193265914916992s
+2026-02-10 00:42:13,499 - INFO - Nodes per second: 21091.605314373784
+2026-02-10 00:42:13,499 - INFO - Move: Rxf5+ (Black)
+2026-02-10 00:42:13,499 - WARNING - Check!
+2026-02-10 00:42:16,452 - INFO - Move: Rxf5 (White)
+2026-02-10 00:42:16,475 - INFO - AI (easy) best move: Rb8, score: 5.25, depth: 2, nodes: 257, time: 0.008018255233764648s
+2026-02-10 00:42:16,475 - INFO - Nodes per second: 32051.860723737027
+2026-02-10 00:42:16,475 - INFO - Move: Rb8 (Black)
+2026-02-10 00:42:19,770 - INFO - Move: Rh5+ (White)
+2026-02-10 00:42:19,771 - WARNING - Check!
+2026-02-10 00:42:19,790 - INFO - AI (easy) best move: Kg8, score: 5.25, depth: 2, nodes: 96, time: 0.0033087730407714844s
+2026-02-10 00:42:19,790 - INFO - Nodes per second: 29013.77604842196
+2026-02-10 00:42:19,790 - INFO - Move: Kg8 (Black)
+2026-02-10 00:42:26,850 - INFO - Move: Rcc5 (White)
+2026-02-10 00:42:26,880 - INFO - AI (easy) best move: Kf8, score: 5.25, depth: 2, nodes: 261, time: 0.01293325424194336s
+2026-02-10 00:42:26,880 - INFO - Nodes per second: 20180.535781440107
+2026-02-10 00:42:26,880 - INFO - Move: Kf8 (Black)
+2026-02-10 00:42:29,950 - INFO - Move: Rce5 (White)
+2026-02-10 00:42:29,977 - INFO - AI (easy) best move: Kg8, score: 2.0, depth: 2, nodes: 247, time: 0.01219487190246582s
+2026-02-10 00:42:29,977 - INFO - Nodes per second: 20254.415296486735
+2026-02-10 00:42:29,977 - INFO - Move: Kg8 (Black)
+2026-02-10 00:42:32,818 - INFO - Move: Rhf5 (White)
+2026-02-10 00:42:32,846 - INFO - AI (easy) best move: Kh8, score: 2.0, depth: 2, nodes: 231, time: 0.01169896125793457s
+2026-02-10 00:42:32,846 - INFO - Nodes per second: 19745.342762232773
+2026-02-10 00:42:32,846 - INFO - Move: Kh8 (Black)
+2026-02-10 00:42:36,601 - INFO - Move: Re7 (White)
+2026-02-10 00:42:36,626 - INFO - AI (easy) best move: Kg8, score: 3.0, depth: 2, nodes: 207, time: 0.009915351867675781s
+2026-02-10 00:42:36,626 - INFO - Nodes per second: 20876.717514667693
+2026-02-10 00:42:36,627 - INFO - Move: Kg8 (Black)
+2026-02-10 00:42:51,140 - INFO - Move: Rff7 (White)
+2026-02-10 00:42:51,164 - INFO - AI (easy) best move: Kh8, score: 3.0, depth: 2, nodes: 172, time: 0.00855398178100586s
+2026-02-10 00:42:51,164 - INFO - Nodes per second: 20107.594849211215
+2026-02-10 00:42:51,164 - INFO - Move: Kh8 (Black)
+2026-02-10 00:42:54,893 - INFO - Move: Rf8# (White)
+2026-02-10 00:42:54,893 - WARNING - Check!
+2026-02-10 00:42:54,893 - INFO - Checkmate - White wins
+2026-02-10 00:42:54,893 - INFO - Game over. Total moves: 99
+2026-02-10 00:42:54,895 - INFO - PGN file generated: chess_game_2026-02-10_00-34-22.pgn

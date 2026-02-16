@@ -1,0 +1,112 @@
+2026-02-12 15:08:00,818 - INFO - Logging to file: chess_game_2026-02-12_15-08-00.log
+2026-02-12 15:08:00,818 - INFO - === Initializing Stockfish Engine ===
+2026-02-12 15:08:00,818 - INFO - Binary path: /opt/homebrew/Cellar/stockfish/18/bin/stockfish
+2026-02-12 15:08:03,575 - INFO - Stockfish initialized successfully!
+2026-02-12 15:08:03,576 - ERROR - Failed to initialize Stockfish: 'Stockfish' object has no attribute 'get_stockfish_version'
+2026-02-12 15:08:03,576 - WARNING - Falling back to pure Python minimax
+2026-02-12 15:09:42,813 - INFO - Move: e4 (White)
+2026-02-12 15:09:42,828 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:09:42,851 - INFO - AI (easy) best move: Nh6, score: 0.0, depth: 2, nodes: 620, time: 0.023010969161987305s
+2026-02-12 15:09:42,851 - INFO - Nodes per second: 26943.671760866186
+2026-02-12 15:09:42,851 - INFO - Move: Nh6 (Black)
+2026-02-12 15:09:45,685 - INFO - Move: Nf3 (White)
+2026-02-12 15:09:45,702 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:09:45,723 - INFO - AI (easy) best move: Rg8, score: 0.0, depth: 2, nodes: 580, time: 0.021446943283081055s
+2026-02-12 15:09:45,724 - INFO - Nodes per second: 27043.48085153688
+2026-02-12 15:09:45,724 - INFO - Move: Rg8 (Black)
+2026-02-12 15:09:48,142 - INFO - Move: Ng5 (White)
+2026-02-12 15:09:48,158 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:09:48,178 - INFO - AI (easy) best move: Rh8, score: 1.0, depth: 2, nodes: 611, time: 0.020033836364746094s
+2026-02-12 15:09:48,178 - INFO - Nodes per second: 30498.40224687009
+2026-02-12 15:09:48,178 - INFO - Move: Rh8 (Black)
+2026-02-12 15:09:53,545 - INFO - Move: Bc4 (White)
+2026-02-12 15:09:53,561 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:09:53,586 - INFO - AI (easy) best move: Rg8, score: 1.0, depth: 2, nodes: 758, time: 0.02517223358154297s
+2026-02-12 15:09:53,586 - INFO - Nodes per second: 30112.544345519986
+2026-02-12 15:09:53,586 - INFO - Move: Rg8 (Black)
+2026-02-12 15:09:59,396 - INFO - Move: Qf3 (White)
+2026-02-12 15:09:59,411 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:09:59,441 - INFO - AI (easy) best move: Rh8, score: 1.0, depth: 2, nodes: 875, time: 0.0289461612701416s
+2026-02-12 15:09:59,441 - INFO - Nodes per second: 30228.53330477971
+2026-02-12 15:09:59,441 - INFO - Move: Rh8 (Black)
+2026-02-12 15:10:06,507 - INFO - Move: d4 (White)
+2026-02-12 15:10:06,523 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:10:06,557 - INFO - AI (easy) best move: Rg8, score: 1.0, depth: 2, nodes: 1001, time: 0.03357100486755371s
+2026-02-12 15:10:06,557 - INFO - Nodes per second: 29817.397600971544
+2026-02-12 15:10:06,557 - INFO - Move: Rg8 (Black)
+2026-02-12 15:10:10,697 - INFO - Move: Nxh7 (White)
+2026-02-12 15:10:10,712 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:10:10,746 - INFO - AI (easy) best move: Rh8, score: 4.75, depth: 2, nodes: 1019, time: 0.03331613540649414s
+2026-02-12 15:10:10,746 - INFO - Nodes per second: 30585.780360388726
+2026-02-12 15:10:10,746 - INFO - Move: Rh8 (Black)
+2026-02-12 15:10:27,412 - INFO - Move: Ng5 (White)
+2026-02-12 15:10:27,428 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:10:27,463 - INFO - AI (easy) best move: Rg8, score: 2.0, depth: 2, nodes: 1054, time: 0.03505396842956543s
+2026-02-12 15:10:27,463 - INFO - Nodes per second: 30067.922327191605
+2026-02-12 15:10:27,463 - INFO - Move: Rg8 (Black)
+2026-02-12 15:10:41,107 - INFO - Move: a4 (White)
+2026-02-12 15:10:41,123 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:10:41,156 - INFO - AI (easy) best move: Rh8, score: 2.0, depth: 2, nodes: 984, time: 0.032530784606933594s
+2026-02-12 15:10:41,156 - INFO - Nodes per second: 30248.271349418075
+2026-02-12 15:10:41,156 - INFO - Move: Rh8 (Black)
+2026-02-12 15:10:45,009 - INFO - Move: b3 (White)
+2026-02-12 15:10:45,025 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:10:45,059 - INFO - AI (easy) best move: Rg8, score: 2.0, depth: 2, nodes: 1034, time: 0.03387904167175293s
+2026-02-12 15:10:45,059 - INFO - Nodes per second: 30520.343816634882
+2026-02-12 15:10:45,059 - INFO - Move: Rg8 (Black)
+2026-02-12 15:10:59,575 - INFO - Move: Bf4 (White)
+2026-02-12 15:10:59,592 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:10:59,623 - INFO - AI (easy) best move: Rh8, score: 2.0, depth: 2, nodes: 898, time: 0.030540943145751953s
+2026-02-12 15:10:59,623 - INFO - Nodes per second: 29403.152211588003
+2026-02-12 15:10:59,623 - INFO - Move: Rh8 (Black)
+2026-02-12 15:11:05,606 - INFO - Move: Nc3 (White)
+2026-02-12 15:11:05,622 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:11:05,660 - INFO - AI (easy) best move: Rg8, score: 2.0, depth: 2, nodes: 1098, time: 0.036400794982910156s
+2026-02-12 15:11:05,660 - INFO - Nodes per second: 30164.176373496815
+2026-02-12 15:11:05,660 - INFO - Move: Rg8 (Black)
+2026-02-12 15:11:30,157 - INFO - Move: Nd5 (White)
+2026-02-12 15:11:30,172 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:11:30,222 - INFO - AI (easy) best move: Rh8, score: 2.0, depth: 2, nodes: 917, time: 0.04910898208618164s
+2026-02-12 15:11:30,222 - INFO - Nodes per second: 18672.755187447205
+2026-02-12 15:11:30,222 - INFO - Move: Rh8 (Black)
+2026-02-12 15:11:39,186 - INFO - Move: Nxc7+ (White)
+2026-02-12 15:11:39,187 - WARNING - Check!
+2026-02-12 15:11:39,203 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:11:39,207 - INFO - AI (easy) best move: Qxc7, score: 8.5, depth: 2, nodes: 51, time: 0.004106044769287109s
+2026-02-12 15:11:39,207 - INFO - Nodes per second: 12420.712112414354
+2026-02-12 15:11:39,207 - INFO - Move: Qxc7 (Black)
+2026-02-12 15:11:43,510 - INFO - Move: Bxc7 (White)
+2026-02-12 15:11:43,525 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:11:43,581 - INFO - AI (easy) best move: Nc6, score: 9.5, depth: 2, nodes: 995, time: 0.05569314956665039s
+2026-02-12 15:11:43,581 - INFO - Nodes per second: 17865.752031302174
+2026-02-12 15:11:43,581 - INFO - Move: Nc6 (Black)
+2026-02-12 15:12:00,115 - INFO - Move: c3 (White)
+2026-02-12 15:12:00,132 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:12:00,197 - INFO - AI (easy) best move: Rg8, score: 9.5, depth: 2, nodes: 1225, time: 0.06515812873840332s
+2026-02-12 15:12:00,197 - INFO - Nodes per second: 18800.41713472354
+2026-02-12 15:12:00,197 - INFO - Move: Rg8 (Black)
+2026-02-12 15:12:23,304 - INFO - Move: Rd1 (White)
+2026-02-12 15:12:23,319 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:12:23,379 - INFO - AI (easy) best move: Rh8, score: 9.5, depth: 2, nodes: 1055, time: 0.0605931282043457s
+2026-02-12 15:12:23,379 - INFO - Nodes per second: 17411.21528570192
+2026-02-12 15:12:23,380 - INFO - Move: Rh8 (Black)
+2026-02-12 15:12:30,131 - INFO - Move: O-O (White)
+2026-02-12 15:12:30,148 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:12:30,204 - INFO - AI (easy) best move: Rg8, score: 9.5, depth: 2, nodes: 1066, time: 0.05629730224609375s
+2026-02-12 15:12:30,204 - INFO - Nodes per second: 18935.187965849032
+2026-02-12 15:12:30,204 - INFO - Move: Rg8 (Black)
+2026-02-12 15:12:40,657 - INFO - Move: d5 (White)
+2026-02-12 15:12:40,673 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:12:40,724 - INFO - AI (easy) best move: Rh8, score: 11.75, depth: 2, nodes: 899, time: 0.0511019229888916s
+2026-02-12 15:12:40,724 - INFO - Nodes per second: 17592.292959218426
+2026-02-12 15:12:40,724 - INFO - Move: Rh8 (Black)
+2026-02-12 15:12:45,460 - INFO - Move: dxc6 (White)
+2026-02-12 15:12:45,477 - WARNING - Stockfish unavailable - falling back to minimax
+2026-02-12 15:12:45,527 - INFO - AI (easy) best move: dxc6, score: 11.75, depth: 2, nodes: 965, time: 0.05011630058288574s
+2026-02-12 15:12:45,527 - INFO - Nodes per second: 19255.21215206253
+2026-02-12 15:12:45,527 - INFO - Move: dxc6 (Black)
+2026-02-12 15:12:51,069 - INFO - Move: Rd8# (White)
+2026-02-12 15:12:51,069 - WARNING - Check!
+2026-02-12 15:12:51,069 - INFO - Checkmate - White wins
+2026-02-12 15:12:51,069 - INFO - Game over. Total moves: 41
+2026-02-12 15:12:51,072 - INFO - PGN file generated: chess_game_2026-02-12_15-08-00.pgn
