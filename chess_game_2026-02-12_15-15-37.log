@@ -1,9 +1,0 @@
-2026-02-12 15:15:37,495 - INFO - Logging to file: chess_game_2026-02-12_15-15-37.log
-2026-02-12 15:15:37,495 - INFO - === Initializing Stockfish Engine ===
-2026-02-12 15:15:37,495 - INFO - Binary path: /opt/homebrew/Cellar/stockfish/18/bin/stockfish
-2026-02-12 15:15:38,131 - INFO - Stockfish initialized successfully!
-2026-02-12 15:15:38,132 - INFO - Major version: 18
-2026-02-12 15:15:38,132 - INFO - Skill level set to 20 (maximum)
-2026-02-12 15:15:38,132 - INFO - Stockfish ready for analysis
-2026-02-12 15:16:03,715 - INFO - Move: e4 (White)
-2026-02-12 15:16:03,731 - INFO - Stockfish → Analyzing position (EASY difficulty)
