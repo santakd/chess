@@ -24,7 +24,7 @@ It’s a fully playable engine + a deep-dive analysis system that asks:
 
 Play like a tactician. Think like a grandmaster.
 
-### The files are chess_game.py for Minimax and chess_fish.py for Stockfish
+### The files are chess_game.py for Minimax only and chess_fish.py for Stockfish and Minimax engine options
 
 #### Note for Stockfish engine, we would need to install Stockfish engine binary and update the path in the program
 
@@ -43,10 +43,10 @@ It is a Python wrapper that:
 * Makes it easy to use inside Python scripts
 
 Analogy: 
-Stockfish binary = The Formula 1 race car engine 🏎️
-Python stockfish package = The steering wheel and dashboard 🎮
-The Python package does NOT calculate moves itself.
-It just controls the engine.
+* Stockfish binary = The Formula 1 race car engine 🏎️
+* Python stockfish package = The steering wheel and dashboard 🎮
+* The Python package does NOT calculate moves itself.
+* It just controls the engine.
 
 ---
 
