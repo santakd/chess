@@ -1,0 +1,9 @@
+[Event "Chess Game"]
+[Site "Local"]
+[Date "2026.02.10"]
+[Round "-"]
+[White "Human"]
+[Black "AI (easy)"]
+[Result "1-0"]
+
+1. e4 Nh6 {eval: 0.00} 2. d4 Ng8 {eval: 0.00} 3. Bc4 Nf6 {eval: 1.00} 4. Bg5 Nxe4 {eval: 0.00} 5. Be3 f6 {eval: -1.00} 6. Qf3 Nd6 {eval: 0.00} 7. Qh5+ g6 {eval: 0.00} 8. Qf3 Nxc4 {eval: -3.75} 9. b3 Nxe3 {eval: -4.75} 10. Qxe3 Rg8 {eval: -3.75} 11. Nf3 Rh8 {eval: -3.75} 12. O-O Rg8 {eval: -3.75} 13. Nc3 Rh8 {eval: -3.75} 14. Nd5 Rg8 {eval: -3.75} 15. Rae1 Rh8 {eval: -3.75} 16. a4 Rg8 {eval: -3.75} 17. Re2 Rh8 {eval: -3.75} 18. Rfe1 Rg8 {eval: -3.75} 19. Nxe7 Bxe7 {eval: -3.25} 20. Qxe7+ Qxe7 {eval: -3.25} 21. Rxe7+ Kf8 {eval: -2.25} 22. Rxh7 Nc6 {eval: -1.25} 23. Rh4 Rg7 {eval: -2.25} 24. Rhe4 Kg8 {eval: -2.25} 25. Re8+ Kh7 {eval: 1.00} 26. Nh4 Nxd4 {eval: 0.00} 27. Rc1 Nxb3 {eval: -1.00} 28. cxb3 Rb8 {eval: 2.25} 29. Rxc7 Ra8 {eval: 3.25} 30. b4 Rb8 {eval: 3.25} 31. a5 Ra8 {eval: 3.25} 32. f3 Rb8 {eval: 3.25} 33. Re4 Ra8 {eval: 3.25} 34. Rf4 Rb8 {eval: 3.25} 35. Rxf6 Ra8 {eval: 4.25} 36. g4 Rb8 {eval: 4.25} 37. f4 Ra8 {eval: 4.25} 38. g5 Rb8 {eval: 4.25} 39. b5 Ra8 {eval: 4.25} 40. f5 gxf5 {eval: 3.25} 41. Nxf5 Rxg5+ {eval: 0.00} 42. Kf2 Rxf5+ {eval: 2.00} 43. Rxf5 Rb8 {eval: 5.25} 44. Rh5+ Kg8 {eval: 5.25} 45. Rcc5 Kf8 {eval: 5.25} 46. Rce5 Kg8 {eval: 2.00} 47. Rhf5 Kh8 {eval: 2.00} 48. Re7 Kg8 {eval: 3.00} 49. Rff7 Kh8 {eval: 3.00} 50. Rf8# 1-0
