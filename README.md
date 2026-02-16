@@ -24,6 +24,7 @@ It’s a fully playable engine + a deep-dive analysis system that asks:
 
 Play like a tactician. Think like a grandmaster.
 
+The file is chess_game.py
 ---
 
 ### 📊 The Analysis Report
@@ -42,6 +43,7 @@ The analysis system generates:
 Because chess isn’t just about who won.
 It’s about **why**.
 
+The file is chess_rprt.py
 ---
 
 ## 🧠 Philosophy
