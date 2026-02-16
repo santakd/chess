@@ -9,20 +9,21 @@
 # Contact: santakd at gmail dot com
 # Date: February 15, 2026
 # Version: 1.0.8
-# License: MIT License
+# License: MIT License 
 
 # pip install pygame
 # pip install chess
 
-import pygame
-import chess
-import logging
-import time
-import sys
-import os
-from math import inf
-import datetime
-import argparse  # For command-line arguments
+import pygame                       # For game UI and graphics
+import chess                        # For chess logic and board management
+import logging                      # For logging game events and Stockfish info
+import time                         # For timing AI moves and timestamps
+import sys                          # For system exits
+import os                           # For file operations like creating directories
+import io                           # For in-memory PGN parsing during validation
+from math import inf                # For minimax infinity values
+import datetime                     # Unused but kept for potential future use
+import argparse                     # For command-line arguments parsing
 
 # Constants
 SCREEN_WIDTH = 800
@@ -435,6 +436,7 @@ class ChessGame:
             return False
         return False
     
+    # Set up logging for better traceability and error reporting
     def setup_logging(self):
         # Remove existing handlers to avoid duplicate logs
         root_logger = logging.getLogger('')
