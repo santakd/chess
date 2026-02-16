@@ -1,0 +1,9 @@
+[Event "Chess Game"]
+[Site "Local"]
+[Date "2026.02.10"]
+[Round "-"]
+[White "Human"]
+[Black "AI (easy)"]
+[Result "1-0"]
+
+1. e4 Nh6 {eval: 0.00} 2. Nf3 Rg8 {eval: 0.00} 3. Ng5 Rh8 {eval: 1.00} 4. d4 Rg8 {eval: 1.00} 5. Nxh7 Rh8 {eval: 4.75} 6. Ng5 f6 {eval: 1.00} 7. Nf3 Ng8 {eval: 1.00} 8. Bc4 e6 {eval: 2.00} 9. Bf4 Bb4+ {eval: 1.00} 10. c3 Bf8 {eval: 2.00} 11. O-O Rh7 {eval: 2.00} 12. Qd3 Ne7 {eval: 2.00} 13. e5 Rh8 {eval: 2.00} 14. exf6 gxf6 {eval: 2.00} 15. Nbd2 Rg8 {eval: 2.00} 16. Ne4 Rh8 {eval: 2.00} 17. Nxf6+ Kf7 {eval: 3.00} 18. Bg5 Bg7 {eval: 3.00} 19. Ne4 Bxd4 {eval: 4.75} 20. Qxd4 Rg8 {eval: 8.00} 21. Qf6+ Ke8 {eval: 8.00} 22. a4 Rxg5 {eval: 6.25} 23. Qxg5 Kf8 {eval: 9.50} 24. Qf6+ Kg8 {eval: 9.50} 25. Nfg5 Qe8 {eval: 9.50} 26. b4 Nec6 {eval: 7.25} 27. Rae1 Qh5 {eval: 7.25} 28. Ng3 Qe8 {eval: 7.25} 29. Re4 d6 {eval: 7.25} 30. Rh4 Qd7 {eval: 7.25} 31. Qh8# 1-0
