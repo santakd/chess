@@ -1,9 +1,0 @@
-[Event "Chess Game"]
-[Site "Local"]
-[Date "2026.02.09"]
-[Round "-"]
-[White "Human"]
-[Black "AI (easy)"]
-[Result "1-0"]
-
-1. e4 Nh6 {eval: 0.00} 2. d4 Ng8 {eval: 0.00} 3. Nf3 Nf6 {eval: 0.00} 4. Bc4 Nxe4 {eval: 0.00} 5. Qd3 Nf6 {eval: 0.00} 6. O-O Rg8 {eval: 0.00} 7. Ng5 Rh8 {eval: 0.00} 8. a4 Rg8 {eval: 0.00} 9. Qh3 Rh8 {eval: 0.00} 10. Qe3 Rg8 {eval: 0.00} 11. Qf3 Rh8 {eval: 2.25} 12. Nc3 Ng8 {eval: 0.00} 13. Qxf7# 1-0
