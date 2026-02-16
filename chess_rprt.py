@@ -31,7 +31,7 @@ from datetime import datetime
 from tqdm import tqdm
 import logging
 
-# Set up logging for better traceability and error reporting
+# Set up logging for better traceability and error reporting in the analysis process
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # ========================== Parser ==========================
