@@ -14,7 +14,7 @@ It’s a fully playable engine + a deep-dive analysis system that asks:
 
 ## 🚀 What’s Inside?
 
-### ♟️ The Game Engine
+### ♟️ The Minimax and Stockfish Game Engine
 
 * Clean playable chess interface
 * Legal move validation
@@ -24,7 +24,29 @@ It’s a fully playable engine + a deep-dive analysis system that asks:
 
 Play like a tactician. Think like a grandmaster.
 
-### The file is chess_game.py
+### The files are chess_game.py for Minimax and chess_fish.py for Stockfish
+
+#### Note for Stockfish engine, we would need to install Stockfish engine binary and update the path in the program
+
+The Stockfish engine is a high-performance chess engine written in C++.
+* Official project: Stockfish
+* It is a compiled executable program (a binary file).
+* It runs independently of Python.
+* It communicates using the UCI (Universal Chess Interface) protocol.
+* This engine, calculates best moves, evaluates positions (e.g., +0.83), searches millions of positions per second and can run from terminal or via GUI
+
+The python package stockfish, is NOT the engine itself.
+It is a Python wrapper that:
+* Launches the Stockfish binary
+* Sends UCI commands
+* Parses responses
+* Makes it easy to use inside Python scripts
+
+Analogy: 
+Stockfish binary = The Formula 1 race car engine 🏎️
+Python stockfish package = The steering wheel and dashboard 🎮
+The Python package does NOT calculate moves itself.
+It just controls the engine.
 
 ---
 
