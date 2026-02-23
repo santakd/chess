@@ -26,7 +26,7 @@ Play like a tactician. Think like a grandmaster.
 
 #### The files are chess_game.py for Minimax only and chess_fish.py for Stockfish and Minimax engine options
 
-#### Note for Stockfish engine, we would need to install Stockfish engine binary and update the path in the program
+#### Note for Stockfish engine, we would need to install [Stockfish engine binary](https://stockfishchess.org/download/) and update the path in the program
 
 The Stockfish engine is a high-performance chess engine written in C++.
 * Official project: Stockfish
