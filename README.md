@@ -28,6 +28,8 @@ Play like a tactician. Think like a grandmaster.
 
 #### Note for Stockfish engine, we would need to install [Stockfish engine binary](https://stockfishchess.org/download/) and update the path in the program
 
+The chess program uses Stockfish engine ver 18.
+
 The Stockfish engine is a high-performance chess engine written in C++.
 * Official project: Stockfish
 * It is a compiled executable program (a binary file).
