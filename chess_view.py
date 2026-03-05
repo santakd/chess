@@ -4,7 +4,7 @@
 #    |  //
 #   _)_/||
 #
-# chess_view.py - A comprehensive chess PGN viewer and detailed logging.
+# chess_view.py - A comprehensive chess PGN replayer and detailed logging.
 # Author: santakd
 # Contact: santakd at gmail dot com
 # Date: March 05, 2026
@@ -115,6 +115,7 @@ class PGNReplayer:
             messagebox.showerror("Initialization Error", "An unexpected error occurred. See log for details.")
             sys.exit(1)
 
+
     def load_piece_images(self):
         """Load chess piece images from 'pieces' directory."""
         try:
@@ -132,6 +133,7 @@ class PGNReplayer:
         except Exception as e:
             logging.error(f"Error loading piece images: {e}")
             messagebox.showwarning("Image Load Warning", "Some piece images could not be loaded. Check 'pieces' directory.")
+
 
     def run(self):
         """Main loop for handling events, updates, and rendering."""
@@ -177,6 +179,7 @@ class PGNReplayer:
 
         pygame.quit()
         logging.info("Application exited.")
+
 
     def load_pgn_file(self):
         """Browse and load a PGN file, parse it, and reset game state."""
@@ -233,6 +236,7 @@ class PGNReplayer:
             logging.error(f"Unexpected error loading PGN: {e}")
             messagebox.showerror("Load Error", "An unexpected error occurred while loading the PGN.")
 
+
     def wrap_pgn_lines(self):
         """Wrap long PGN lines to fit within the side panel width and track move positions."""
         self.pgn_lines = []
@@ -283,12 +287,14 @@ class PGNReplayer:
 
         logging.debug(f"Wrapped PGN into {len(self.pgn_lines)} lines. Tracked {len(self.wrapped_move_positions)} moves.")
 
+
     def forward_move(self):
         """Advance to the next move if available."""
         if self.current_index < len(self.moves) - 1:
             self.current_index += 1
             self.board.push(self.moves[self.current_index])
             logging.debug(f"Advanced to move {self.current_index + 1}: {self.sans[self.current_index]}")
+
 
     def rewind_move(self):
         """Go back to the previous move if possible."""
@@ -297,11 +303,13 @@ class PGNReplayer:
             self.current_index -= 1
             logging.debug(f"Rewound to move {self.current_index + 1}")
 
+
     def forward_to_end(self):
         """Fast-forward to the end of the game."""
         while self.current_index < len(self.moves) - 1:
             self.forward_move()
         logging.debug("Fast-forwarded to end of game.")
+
 
     def rewind_to_start(self):
         """Rewind to the starting position."""
@@ -309,12 +317,14 @@ class PGNReplayer:
             self.rewind_move()
         logging.debug("Rewound to start position.")
 
+
     def draw_board(self):
         """Render the chessboard squares."""
         for row in range(8):
             for col in range(8):
                 color = LIGHT_SQUARE if (row + col) % 2 == 0 else DARK_SQUARE
                 pygame.draw.rect(self.screen, color, (col * SQUARE_SIZE, row * SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE))
+
 
     def draw_pieces(self):
         """Render pieces on the current board state."""
@@ -327,9 +337,11 @@ class PGNReplayer:
                     row = 7 - chess.square_rank(square)
                     self.screen.blit(img, (col * SQUARE_SIZE, row * SQUARE_SIZE))
 
+
     def draw_side_panel(self):
         """Draw the side panel background."""
         pygame.draw.rect(self.screen, (200, 200, 200), (BOARD_SIZE, 0, SIDE_PANEL_WIDTH, SCREEN_WIDTH))
+
 
     def draw_buttons(self, mouse_pos):
         """Render buttons with hover effects."""
@@ -346,6 +358,7 @@ class PGNReplayer:
             pygame.draw.rect(self.screen, color, rect)
             text = self.font.render(label, True, TEXT_COLOR)
             self.screen.blit(text, text.get_rect(center=rect.center))
+
 
     def draw_pgn_text(self):
         """Render the wrapped PGN text on the side panel with scrolling and highlighting."""
@@ -382,6 +395,7 @@ class PGNReplayer:
         total_height = len(self.pgn_lines) * LINE_HEIGHT
         max_offset = min(0, PGN_AREA_HEIGHT - total_height)
         self.pgn_scroll_offset = max(max_offset, self.pgn_scroll_offset)
+
 
 # Main execution
 if __name__ == "__main__":
