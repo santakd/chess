@@ -72,6 +72,16 @@ It’s about **why**.
 
 ---
 
+#### 📊 The PGN Replayer
+
+Want to replay and view a played game
+
+* ⏪ The replayer reads the generated PGN file and replays the game step by step
+
+#### The file is chess_view.py
+
+---
+
 ### 🧠 Philosophy
 
 Chess is the perfect intersection of:
