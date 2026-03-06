@@ -21,40 +21,47 @@ import chess                        # For parsing PGN files and managing chess g
 import chess.pgn                    # For parsing PGN files and extracting moves and comments
 import logging                      # For logging events, errors, and debugging information
 import sys                          # For exiting the application on critical errors
+import time                         # For performance measurement and debugging
 import io                           # For parsing PGN from string
 from tkinter import filedialog, Tk  # For file browser dialog
 from tkinter import messagebox      # For user-friendly error messages
 
+
+# Generate timestamp at the start of the program
+timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
+
+# Construct the log filename
+log_filename = f"chess_view_{timestamp}.log"
 
 # Set up logging for debugging and error tracking
 logging.basicConfig(
     level=logging.DEBUG,  # Set to DEBUG for detailed logs; change to INFO for production
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("chess_view.log", mode='a'),  # Log to file
+        logging.FileHandler(log_filename, mode='a'),  # Log to timestamped file
         logging.StreamHandler(sys.stdout)  # Also log to console
     ]
 )
 
 # Constants for GUI layout and behavior
-SCREEN_WIDTH = 1080               # Changed to 1080 as requested
-BOARD_SIZE = 640
-SQUARE_SIZE = BOARD_SIZE // 8
-SIDE_PANEL_WIDTH = SCREEN_WIDTH - BOARD_SIZE
-FPS = 60
-LINE_HEIGHT = 20
-PGN_AREA_HEIGHT = SCREEN_WIDTH - 150  # Height of PGN display area (adjust as needed)
+SCREEN_WIDTH = 1080                             # Changed to 1080 as requested
+BOARD_SIZE = 640                                # Size of the chessboard (640x640 for better visibility)    
+SQUARE_SIZE = BOARD_SIZE // 8                   # Size of each square on the chessboard
+SIDE_PANEL_WIDTH = SCREEN_WIDTH - BOARD_SIZE    # Width of the side panel for PGN display and controls
+FPS = 60                                        # Frames per second for the Pygame loop, can be adjusted for performance
+LINE_HEIGHT = 20                                # Height of each line of PGN text in the side panel, can be adjusted based on font size
+PGN_AREA_HEIGHT = SCREEN_WIDTH - 150            # Height of PGN display area (adjust as needed)
 
 # Colors
-LIGHT_SQUARE = (233, 214, 176)  # Light board square color
-DARK_SQUARE = (164, 128, 92)   # Dark board square color
-TEXT_COLOR = (0, 0, 0)         # Text color
-BUTTON_COLOR = (150, 150, 150) # Button background
-BUTTON_HOVER = (200, 200, 200) # Button hover
-HIGHLIGHT_COLOR = (255, 0, 0)  # Red for highlighting current move
-HIGHLIGHT_BG = (255, 255, 200)    # Light yellow background for better visibility
+LIGHT_SQUARE = (233, 214, 176)      # Light board square color
+DARK_SQUARE = (164, 128, 92)        # Dark board square color
+TEXT_COLOR = (0, 0, 0)              # Text color
+BUTTON_COLOR = (150, 150, 150)      # Button background
+BUTTON_HOVER = (200, 200, 200)      # Button hover
+HIGHLIGHT_COLOR = (255, 0, 0)       # Red for highlighting current move
+HIGHLIGHT_BG = (255, 255, 200)      # Light yellow background for better visibility
 
-ENABLE_HIGHLIGHTING = True  # Set to False to disable highlighting
+ENABLE_HIGHLIGHTING = True          # Set to False to disable highlighting
 
 # Class for the PGN Replayer application
 class PGNReplayer:
@@ -75,7 +82,7 @@ class PGNReplayer:
 
             pygame.init()
             self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_WIDTH))
-            pygame.display.set_caption("PGN Replayer")
+            pygame.display.set_caption("Chess PGN Replayer")
             self.clock = pygame.time.Clock()
             self.font = pygame.font.SysFont(None, 24)  # Font for buttons and labels
             self.small_font = pygame.font.SysFont(None, 18)  # Smaller font for PGN text to fit more lines
