@@ -74,7 +74,7 @@ It’s about **why**.
 
 #### 📊 The PGN Replayer
 
-Want to replay and view a played game
+Want to replay and view a played game, we got this covered.
 
 * ⏪ The replayer reads the generated PGN file and replays the game step by step
 
