@@ -4,7 +4,7 @@
 #    |  //
 #   _)_/||
 #
-# chess_view.py - A comprehensive chess PGN replayer and detailed logging.
+# chess_view.py - A comprehensive chess PGN replayer with detailed logging.
 # Author: santakd
 # Contact: santakd at gmail dot com
 # Date: March 05, 2026
