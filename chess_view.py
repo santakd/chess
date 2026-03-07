@@ -27,22 +27,6 @@ from tkinter import filedialog, Tk  # For file browser dialog
 from tkinter import messagebox      # For user-friendly error messages
 
 
-# Generate timestamp at the start of the program
-timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
-
-# Construct the log filename
-log_filename = f"chess_view_{timestamp}.log"
-
-# Set up logging for debugging and error tracking
-logging.basicConfig(
-    level=logging.DEBUG,  # Set to DEBUG for detailed logs; change to INFO for production
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(log_filename, mode='a'),  # Log to timestamped file
-        logging.StreamHandler(sys.stdout)  # Also log to console
-    ]
-)
-
 # Constants for GUI layout and behavior
 SCREEN_WIDTH = 1080                             # Changed to 1080 as requested
 BOARD_SIZE = 640                                # Size of the chessboard (640x640 for better visibility)    
@@ -62,6 +46,8 @@ HIGHLIGHT_COLOR = (255, 0, 0)       # Red for highlighting current move
 HIGHLIGHT_BG = (255, 255, 200)      # Light yellow background for better visibility
 
 ENABLE_HIGHLIGHTING = True          # Set to False to disable highlighting
+
+GENERATE_LOG = True  # Generate timestamped log file
 
 # Class for the PGN Replayer application
 class PGNReplayer:
@@ -86,6 +72,8 @@ class PGNReplayer:
             self.clock = pygame.time.Clock()
             self.font = pygame.font.SysFont(None, 24)  # Font for buttons and labels
             self.small_font = pygame.font.SysFont(None, 18)  # Smaller font for PGN text to fit more lines
+
+            self.setup_logging()
 
             # Load piece images from 'pieces' directory
             self.load_piece_images()
@@ -121,6 +109,24 @@ class PGNReplayer:
             logging.error(f"Unexpected error during initialization: {e}")
             messagebox.showerror("Initialization Error", "An unexpected error occurred. See log for details.")
             sys.exit(1)
+
+    def setup_logging(self):
+        """Setup timestamped logging for the game"""
+        self.timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
+        if GENERATE_LOG:
+            log_file = f"chess_view_{self.timestamp}.log"
+            logging.basicConfig(
+                level=logging.DEBUG,
+                format='%(asctime)s - %(levelname)s - %(message)s',
+                handlers=[
+                    logging.FileHandler(log_file),
+                    logging.StreamHandler(sys.stdout)
+                ],
+                force=True  # Force reconfiguration even if handlers exist
+            )
+            logging.info(f"Logging to: {log_file}")
+        else:
+            logging.basicConfig(level=logging.WARNING)  # Minimal logging if disabled
 
 
     def load_piece_images(self):
@@ -184,8 +190,9 @@ class PGNReplayer:
                 except:
                     pass
 
-        pygame.quit()
         logging.info("Application exited.")
+        logging.shutdown()
+        pygame.quit()
 
 
     def load_pgn_file(self):
