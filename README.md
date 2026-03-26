@@ -155,7 +155,6 @@ into:
 * Blunder heatmaps
 * Opening classification
 * Engine comparison mode
-* Exportable performance reports
 
 
 ---
