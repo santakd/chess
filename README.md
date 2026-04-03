@@ -105,6 +105,12 @@ You’ll find something fun to explore here.
 
 ---
 
+### ⭐ Like it? Star it!
+
+If you find this project interesting, please give it a star — it helps others discover it too.
+
+---
+
 ### 🏗️ Built With
 
 * Python ♞
