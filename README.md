@@ -24,7 +24,7 @@ It’s a fully playable engine + a deep-dive analysis system that asks:
 
 Play like a tactician. Think like a grandmaster.
 
-#### The files are chess_game.py for Minimax only and chess_fish.py for Stockfish and Minimax engine options
+#### The files are [chess_game.py](https://github.com/santakd/chess/blob/main/chess_game.py) for Minimax only and [chess_fish.py](https://github.com/santakd/chess/blob/main/chess_fish.py) for Stockfish and Minimax engine options
 
 #### Note for Stockfish engine, we would need to install [Stockfish engine binary](https://stockfishchess.org/download/) and update the path in the program
 
@@ -68,7 +68,7 @@ The analysis system generates:
 Because chess isn’t just about who won.
 It’s about **why**.
 
-#### The file is chess_rprt.py
+#### The file is [chess_rprt.py](https://github.com/santakd/chess/blob/main/chess_rprt.py)
 
 ---
 
@@ -78,7 +78,7 @@ Want to replay and view a played game, we got this covered.
 
 * ⏪ The replayer reads the generated PGN file and replays the game step by step
 
-#### The file is chess_view.py
+#### The file is [chess_view.py](https://github.com/santakd/chess/blob/main/chess_view.py)
 
 ---
 
