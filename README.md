@@ -3,6 +3,10 @@
 
 Welcome to Chess repo — where strategy meets code, and every move tells a story.
 
+
+![Chess Init](https://github.com/santakd/chess/blob/main/chess_init.png)
+
+
 This isn’t just another chess game.
 It’s a fully playable engine + a deep-dive analysis system that asks:
 
